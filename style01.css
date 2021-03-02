@@ -1,0 +1,64 @@
+#head{
+			background: lightgray;
+			font-size: 22px;
+		}
+		#jeu{
+			width: 314px;
+			margin-left: 10%;
+			border: 2px solid tomato;
+		}
+		@media all and (min-width: 600px){
+			#jeu{
+				margin-left: 25%;
+			}
+		}
+		@media all and (min-width: 900px){
+			#jeu{
+				margin-left: 40%;
+			}
+		}
+		.point{
+			height:25px;
+			width: 312px;
+		  color: white;
+		  text-align: center;
+		}
+		.pointx{
+			background: green;
+		}
+		.pointo{
+			background: red;
+		}
+		table{
+			border-bottom:2px solid tomato;
+			border-top:2px solid tomato;
+		}
+		td>div{
+			height:100px;
+			width:100px;
+			background:aqua;
+			font-size:90px;
+			text-align: center;
+			cursor: pointer;
+		}
+		span{
+			display: block;
+			height: 30px;
+			width: 312px;
+			text-align: center;
+			color: red;
+		}
+		td>div:active{
+			box-shadow: 2px 2px 10px 2px red;
+		}
+		caption{
+			caption-side: bottom;
+		}
+		#foot{
+			width: 310px;
+			text-align: center;
+			color: black;
+			height: 40px;
+			background: lightgray;
+			font-size: 25px;
+		}

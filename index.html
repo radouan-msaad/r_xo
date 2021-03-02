@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head><title>GAME XO</title>
+	<meta charset="utf-8">
+	<link rel="icon"  href="sad.png">
+	<link rel="stylesheet" type="text/css" href="style01.css">
+	<script type="text/javascript" src="js01.js"></script>
+</head>
+<body>
+	<div id="jeu">
+		<span id="head">START PLAY</span>
+		<table>
+			<tr>
+				<td><div class="d"id="d1"onclick="change('d1')"  value="1"></div></td>
+				<td><div class="d"id="d2"onclick="change('d2');"value="2"></div></td>
+				<td><div class="d"id="d3" onclick="change('d3'); env();" value="3"></div></td>
+			</tr>
+			<tr>
+				<td><div class="d"id="d4"onclick="change('d4')" value="4"></div></td>
+				<td><div class="d"id="d5" onclick="change('d5')" value="5"></div></td>
+				<td><div class="d"id="d6" onclick="change('d6')" value="6"></div></td>
+			</tr>
+			<tr>
+				<td><div class="d"id="d7" onclick="change('d7')" value="7"></div></td>
+				<td><div class="d"id="d8" onclick="change('d8')" value="8"></div></td>
+				<td><div class="d"id="d9" onclick="change('d9')" value="9"></div></td>
+			</tr>
+		</table>
+		<caption>
+		<div class="pointo point">o: 0</div>
+		<div class="pointx point">x: 0</div>
+		</caption>
+		<div id="foot">&copy By Radouan</div>
+	</div>
+</body>
+</html>
